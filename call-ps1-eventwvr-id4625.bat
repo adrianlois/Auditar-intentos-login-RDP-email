@@ -1,0 +1,1 @@
+powershell.exe -file "..path..\id_4625.ps1"
