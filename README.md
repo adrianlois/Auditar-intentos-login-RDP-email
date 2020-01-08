@@ -33,5 +33,5 @@ wevtutil query-events Security /count:1 /rd:true /format:text /q:"Event[System[(
 #### Ejemplo de una recepción de email de un aviso por inicio de sesión erróneo. 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/adrianlois/Auditar-inicios-sesion-erroneos-envio-email-PowerShell/master/screenshots/email-aviso-inicio-sesion-incorrecto.png" width="450" />
+<img src="https://raw.githubusercontent.com/adrianlois/Auditar-inicios-sesion-erroneos-envio-email-PowerShell/master/screenshots/email-aviso-inicio-sesion-incorrecto.png" width="480" />
 </p>
