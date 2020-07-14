@@ -1,4 +1,4 @@
-# Auditar-inicios-sesion-erroneos-envio-email-PowerShell
+# Auditar inicios de sesión erroneos y envíar email de notificación con PowerShell
 Auditar inicios de sesión erróneos con Id. 4625 y notificarlos vía email (SMTP Gmail.com) mediante un script de PowerShell.
 
 No solo será útil para auditar los inicios de sesión local sino también los intentos de inicio de sesión por ataques de fuerza bruta a través de sesiones de escritorio remoto RDP.
