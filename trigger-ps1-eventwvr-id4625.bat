@@ -1,1 +1,1 @@
-powershell.exe -ExecutionPolicy Bypass -File "..path..\event_id_4625.ps1"
+powershell.exe -ExecutionPolicy Bypass -File "PATH\event_id_4625.ps1"
