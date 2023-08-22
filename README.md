@@ -1,7 +1,7 @@
 # Auditar intentos de inicio de sesión y envíar email de notificación con PowerShell
 Auditar intentos de inicio de sesión erróneos con Id. 4625 y notificarlos vía email (SMTP Gmail.com) mediante un script de PowerShell.
 
-No solo será útil para auditar los inicios de sesión local sino también los intentos de inicio de sesión por ataques de fuerza bruta a través de sesiones de escritorio remoto RDP.
+No solo será útil para auditar los inicios de sesión local sino también los intentos de inicio de sesión producidos por ataques de fuerza bruta a través de sesiones de escritorio remoto RDP.
 
 ### Comando wenvtutil
 **Windows Event Utility** es la utilidad en línea de comandos que nos mostrará la información de los eventos registrados de Windows.
