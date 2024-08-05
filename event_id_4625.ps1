@@ -11,6 +11,6 @@ $wevtutil = wevtutil query-events Security /count:1 /rd:true /format:text /q:"Ev
 # Lee las últimas 5 líneas del fichero temporal y lo convierte en una cadena de caracteres tal cual se mostrarían en pantalla (formato columna). 
 $cuerpoEmail = Get-Content "$pathTempWevtutil" -Tail 5 | Out-String
 
-Send-MailMessage -From $usuarioEmail -To $usuarioEmail -Subject "$asuntoEmail" -Body "$cuerpoEmail" -SmtpServer smtp.gmail.com -UseSsl -Credential $credencialesEmail
+Send-MailMessage -From $usuarioEmail -To $usuarioEmail -Subject "$asuntoEmail" -Body "$cuerpoEmail" -SmtpServer "smtp.gmail.com" -Port "587" -UseSsl -Credential $credencialesEmail
 Remove-Item -Path "$pathTempWevtutil" -Force
 exit
