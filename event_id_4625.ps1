@@ -1,5 +1,5 @@
-$usuarioEmail = "myEmail@gmail.com" 
-$passwdEmail = "myPassword"
+$usuarioEmail = "Usuario@email.com" 
+$passwdEmail = "PasswordEmail"
 $pathTempWevtutil = "C:\temp\temp_wevtutil"
 $secPasswdEmail = ConvertTo-SecureString $passwdEmail -AsPlainText -Force
 $credencialesEmail = New-Object System.Management.Automation.PSCredential ($usuarioEmail, $secPasswdEMail)
